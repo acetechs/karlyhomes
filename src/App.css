@@ -1,0 +1,256 @@
+/* start */
+/* start */
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.App {
+  text-align: center;
+}
+
+.logo img {
+  width: 85px;
+}
+.navlinks {
+  position: absolute;
+  right: 130px;
+}
+.menu-img {
+  width: 20px;
+}
+.nav-btn {
+  display: none !important;
+}
+.navlinks {
+  display: block;
+}
+.navlinks ul {
+  gap: 30px;
+}
+.navlinks ul li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.navlinks ul li a {
+  color: rgb(12, 5, 36);
+  text-decoration: none;
+}
+.navlinks ul li a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.781);
+}
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.side-nav li {
+  list-style: none;
+  font-size: 30px;
+  text-align: center;
+}
+.side-nav li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-cont {
+  width: fit-content;
+  display: block;
+  height: 15vh;
+}
+.nav-drop li {
+  padding: 3px 5px;
+}
+.drop-text {
+  background: none;
+}
+.drop-item {
+  font-weight: bold;
+}
+
+/*  */
+
+/* main */
+
+.carousel-h3 {
+  font-size: 1.5rem;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.941);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  text-shadow: 9px 9px 15px black;
+  margin: 20px 4px;
+}
+.carousel img {
+  height: 80vh;
+}
+.car-btn {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* bestselling */
+
+.card-display {
+  width: 300px;
+  height: 400px !important;
+}
+.card-img {
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+/* about */
+#about {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20vh;
+}
+
+.about-text {
+  width: 70%;
+  padding: 0px 40px;
+  text-align: center;
+}
+.about-text p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  line-height: 30px;
+  font-size: 1rem;
+}
+
+/* products */
+.product-head {
+  font-size: 2rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.product-hold {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+.product-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  /* width: 1000px; */
+  /* margin-left: 20px; */
+  /* border: 3px dotted pink; */
+}
+.product-view a {
+  text-decoration: none;
+}
+
+.products ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  border: 2px solid black;
+}
+.products li {
+  background-color: black;
+  color: white;
+}
+.products a {
+  text-decoration: none;
+  color: white;
+}
+
+.product-hold {
+  margin-bottom: 20vh;
+}
+.product-card {
+  /* border: 2px solid blue; */
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+}
+.card-text {
+  font-size: 1.2rem;
+  font-style: oblique;
+  font-weight: 500;
+  margin: 5px auto;
+}
+
+.note {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px auto;
+  width: 70vw;
+}
+
+/* footer */
+.main-footer {
+  background-image: url(./images/img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.footer-div {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.778);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10vh;
+  gap: 40px;
+  text-align: start;
+  padding-bottom: 10vh;
+}
+.footer-div h3 {
+  color: white;
+  font-size: 1.4rem;
+}
+.footer-div a {
+  text-decoration: none;
+  color: wheat;
+}
+
+.footer-div p {
+  color: wheat;
+}
+
+/* media queries */
+
+@media (max-width: 990px) {
+  .navlinks ul li {
+    display: none;
+  }
+  .nav-btn {
+    display: block !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .carousel-h3 {
+    font-size: 1rem !important ;
+    line-height: 30px;
+  }
+  .car-btn-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
