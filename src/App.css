@@ -13,7 +13,7 @@
 }
 
 .logo img {
-  width: 85px;
+  width: 150px;
 }
 .navlinks {
   position: absolute;
@@ -97,6 +97,8 @@
   color: white;
   font-size: 0.8rem;
 }
+.carousel .carousel-indicators {
+  display: none;}
 
 /* bestselling */
 
@@ -177,7 +179,7 @@
 }
 .product-card {
   /* border: 2px solid blue; */
-  width: 250px;
+  width: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -219,6 +221,10 @@
   text-align: start;
   padding-bottom: 10vh;
 }
+.contact{
+  text-align: center;
+  gap: 5px;
+}
 .footer-div h3 {
   color: white;
   font-size: 1.4rem;
@@ -241,6 +247,9 @@
   .nav-btn {
     display: block !important;
   }
+  .logo img{
+    width: 120px;
+  }
 }
 
 @media (max-width: 599px) {
@@ -252,5 +261,12 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  #about{
+    margin-bottom: 20px;
+  }
+  .about-text{
+    width: 100%;
+
   }
 }

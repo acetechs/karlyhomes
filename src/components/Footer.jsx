@@ -4,19 +4,19 @@ const Footer = () => {
   return (
     <div className="main-footer">
       <div className="footer-div" id="footer">
-        <div className="Contact d-flex flex-column">
+        <div className="contact">
           <h3>Contact</h3>
           <a href="address" className="bi bi-house-door-fill">
             : Block C, Shop #4 Happy Home Mall, <br /> Odunade Market; Along
             Lagos - Badagry Express Way, <br />
              Lagos State
           </a>
-          <br />
+          <br /><br />
           <a href="email" className="bi bi-envelope-at-fill">
             : karlyhomesltd@gmail.com
           </a>
           
-          <br />
+          <br /><br />
           <a href="number" className="bi bi-telephone-fill">
             : +2348065023664
           </a>
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="hours d-flex flex-column ">
           <h3>Opening Hours</h3>
-          <p> Monday to Saturday: 9am – 7pm <span className=""></span></p>
+          <p> Monday to Saturday: 8am – 6pm <span className=""></span></p>
           <br /> 
           <p>Sunday: Closed.</p>
           <br />

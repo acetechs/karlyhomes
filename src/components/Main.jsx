@@ -1,15 +1,16 @@
 import React from 'react'
 import Bestselling from './Bestselling'
 import Testimonial from './Testimonials'
-import Carousels from './Carousel'
 import About from './About'
+import Welcome from './Welcome'
 
 
 const Main = () => {
   return (
     <div>
         <div className="main-div">
-            <Carousels/>
+            {/* <Carousels/> */}
+            <Welcome/>
             <Bestselling/>
             <Testimonial/>
             <About/>
